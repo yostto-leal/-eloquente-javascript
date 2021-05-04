@@ -1,0 +1,22 @@
+Capítulo 3
+Funções
+As pessoas pensam que a ciência da computação é a arte dos gênios, mas a realidade real é o oposto, apenas muitas pessoas fazendo coisas que se constroem umas sobre as outras, como uma parede de mini pedras.
+
+Donald Knuth
+Imagem de folhas de samambaia com forma fractal
+Funções são o pão com manteiga da programação JavaScript. O conceito de embrulhar uma parte do programa em um valor tem muitos usos. Isso nos dá uma maneira de estruturar programas maiores, reduzir a repetição, associar nomes a subprogramas e isolar esses subprogramas uns dos outros.
+
+A aplicação mais óbvia de funções é definir um novo vocabulário. Criar novas palavras em prosa costuma ser um estilo ruim. Mas na programação, é indispensável.
+
+Os falantes de inglês adultos típicos têm cerca de 20.000 palavras em seu vocabulário. Poucas linguagens de programação vêm com 20.000 comandos internos. E o vocabulário que é disponível tende a ser mais precisamente definido e, portanto, menos flexível, que na linguagem humana. Portanto, geralmente temos que introduzir novos conceitos para evitar nos repetir demais.
+
+Definindo uma função
+
+Uma definição de função é uma associação regular em que o valor da associação é uma função. Por exemplo, este código define squarecomo se referir a uma função que produz o quadrado de um determinado número:
+
+edite e execute o código clicando neleconst  square  =  function ( x ) {
+   return  x  *  x ;
+};
+
+console . log ( quadrado ( 12 ));
+// → 144
